@@ -1,4 +1,4 @@
-<mxfile modified="2022-03-08T18:22:21.621Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="yU2skDX6oRAmgL_XmF-E" version="16.6.6" type="github">
+<mxfile modified="2022-03-08T18:39:30.700Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="JkU02EfYlQUt8oSvApAJ" version="16.6.6" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="2402" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -94,13 +94,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vlYqKZK9bWW-TJa4kLlD-6" value="Match state" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=22;" vertex="1" parent="1">
-          <mxGeometry x="99" y="920" width="401" height="90" as="geometry" />
+          <mxGeometry x="99" y="920" width="401" height="120" as="geometry" />
         </mxCell>
         <mxCell id="vlYqKZK9bWW-TJa4kLlD-68" value="match id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=19;" vertex="1" parent="vlYqKZK9bWW-TJa4kLlD-6">
           <mxGeometry y="30" width="401" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vlYqKZK9bWW-TJa4kLlD-7" value="rounds (list of round ) length  6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=19;" vertex="1" parent="vlYqKZK9bWW-TJa4kLlD-6">
+        <mxCell id="vlYqKZK9bWW-TJa4kLlD-121" value="current round " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=19;" vertex="1" parent="vlYqKZK9bWW-TJa4kLlD-6">
           <mxGeometry y="60" width="401" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vlYqKZK9bWW-TJa4kLlD-7" value="rounds (list of round ) length  6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=19;" vertex="1" parent="vlYqKZK9bWW-TJa4kLlD-6">
+          <mxGeometry y="90" width="401" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vlYqKZK9bWW-TJa4kLlD-19" value="Match" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;horizontal=1;" vertex="1" parent="1">
           <mxGeometry x="49" y="870" width="81" height="40" as="geometry" />
@@ -148,7 +151,7 @@
           <mxGeometry x="40" y="1430" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vlYqKZK9bWW-TJa4kLlD-67" value="&lt;ol style=&quot;font-size: 22px&quot;&gt;&lt;li&gt;initialize the match state when the game starts&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;the server sends for each player his cards and his state&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;player1 plays a card with defense or attack and send it as a post request&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;the response gonna contain the rolling dice result with the new card state&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;player1 click the dice then the UI gonna make animation rolling the dice and send a request to the server that he is ready to get the other player card&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;meanwhile, the server will listen to a real-time database like rides until getting the other player card or the new match state (depending on which player play his card first*)&amp;nbsp; &amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&amp;nbsp;player2 will do the same thing&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;after both players send the ready request they should receive the other player card with the new match state and the round state as a response on the ready request from 5&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;repeat&amp;nbsp;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=31;" vertex="1" parent="1">
-          <mxGeometry x="640" y="780" width="479" height="690" as="geometry" />
+          <mxGeometry x="640" y="827" width="479" height="690" as="geometry" />
         </mxCell>
         <mxCell id="vlYqKZK9bWW-TJa4kLlD-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=22;" edge="1" parent="1" source="vlYqKZK9bWW-TJa4kLlD-72" target="vlYqKZK9bWW-TJa4kLlD-67">
           <mxGeometry relative="1" as="geometry" />
@@ -178,12 +181,10 @@
         <mxCell id="vlYqKZK9bWW-TJa4kLlD-78" value="read the game state inside redis&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
           <mxGeometry x="805" y="1970" width="170" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="vlYqKZK9bWW-TJa4kLlD-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=22;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vlYqKZK9bWW-TJa4kLlD-80" target="vlYqKZK9bWW-TJa4kLlD-85">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1410" y="2020" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="vlYqKZK9bWW-TJa4kLlD-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=22;" edge="1" parent="1" source="vlYqKZK9bWW-TJa4kLlD-80" target="vlYqKZK9bWW-TJa4kLlD-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vlYqKZK9bWW-TJa4kLlD-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=22;" edge="1" parent="1" source="vlYqKZK9bWW-TJa4kLlD-80" target="vlYqKZK9bWW-TJa4kLlD-122">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vlYqKZK9bWW-TJa4kLlD-80" value="the other player is ready&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
@@ -198,7 +199,7 @@
         <mxCell id="vlYqKZK9bWW-TJa4kLlD-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=22;" edge="1" parent="1" source="vlYqKZK9bWW-TJa4kLlD-85" target="vlYqKZK9bWW-TJa4kLlD-87">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vlYqKZK9bWW-TJa4kLlD-85" value="mark the player in redis as ready &amp;amp;&lt;br&gt;listen to redis match stream" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+        <mxCell id="vlYqKZK9bWW-TJa4kLlD-85" value="listen to redis match stream" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
           <mxGeometry x="1350" y="2030" width="220" height="100" as="geometry" />
         </mxCell>
         <mxCell id="vlYqKZK9bWW-TJa4kLlD-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=22;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vlYqKZK9bWW-TJa4kLlD-87" target="vlYqKZK9bWW-TJa4kLlD-92">
@@ -231,11 +232,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vlYqKZK9bWW-TJa4kLlD-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=22;" edge="1" parent="1" source="vlYqKZK9bWW-TJa4kLlD-95" target="vlYqKZK9bWW-TJa4kLlD-85">
+        <mxCell id="vlYqKZK9bWW-TJa4kLlD-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.455;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=22;" edge="1" parent="1" source="vlYqKZK9bWW-TJa4kLlD-95" target="vlYqKZK9bWW-TJa4kLlD-85">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1240" y="2010" />
-              <mxPoint x="1460" y="2010" />
+              <mxPoint x="1300" y="2275" />
+              <mxPoint x="1300" y="2010" />
+              <mxPoint x="1450" y="2010" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -264,7 +266,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vlYqKZK9bWW-TJa4kLlD-107" value="round " style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=22;" vertex="1" parent="1">
-          <mxGeometry x="99" y="1031" width="401" height="210" as="geometry" />
+          <mxGeometry x="99" y="1050" width="401" height="210" as="geometry" />
         </mxCell>
         <mxCell id="vlYqKZK9bWW-TJa4kLlD-111" value="player 1 health &lt;= 15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=20;" vertex="1" parent="vlYqKZK9bWW-TJa4kLlD-107">
           <mxGeometry y="30" width="401" height="30" as="geometry" />
@@ -283,6 +285,12 @@
         </mxCell>
         <mxCell id="vlYqKZK9bWW-TJa4kLlD-117" value="player 2 current played card (nullable)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=20;" vertex="1" parent="vlYqKZK9bWW-TJa4kLlD-107">
           <mxGeometry y="180" width="401" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vlYqKZK9bWW-TJa4kLlD-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.636;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=22;" edge="1" parent="1" source="vlYqKZK9bWW-TJa4kLlD-122" target="vlYqKZK9bWW-TJa4kLlD-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vlYqKZK9bWW-TJa4kLlD-122" value="&lt;span&gt;mark the player in redis as ready&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="1930" width="190" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
