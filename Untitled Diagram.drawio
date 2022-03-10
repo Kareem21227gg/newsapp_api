@@ -1,6 +1,6 @@
-<mxfile modified="2022-03-09T17:34:56.888Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="Lbq5hVSOJjKwmBjWWjnC" version="17.0.0" type="github">
+<mxfile modified="2022-03-10T13:21:05.707Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="DF5--cfP3OBpCb0oorCN" version="17.1.0" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
-    <mxGraphModel dx="2037" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2905" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -204,10 +204,10 @@
         <mxCell id="vlYqKZK9bWW-TJa4kLlD-72" value="*we have to instance of lambda functions work in parallel &#xa;each function will be connected to the user by API gateway WebSocket&#xa;and the two functions gonna  communicate and syncrnize the game state between each other by database stream (redis or dynamoDB)" style="text;align=left;fontStyle=0;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=22;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="670" y="1600" width="680" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="DOezJAUeToiMQup9B8c_-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=19;" parent="1" source="vlYqKZK9bWW-TJa4kLlD-78" target="DOezJAUeToiMQup9B8c_-30" edge="1">
+        <mxCell id="DOezJAUeToiMQup9B8c_-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=19;" parent="1" source="vlYqKZK9bWW-TJa4kLlD-78" target="mzzQG3uNOCbi6DgmSUqi-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vlYqKZK9bWW-TJa4kLlD-78" value="send the game state to the player and wait until he play a card" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" parent="1" vertex="1">
+        <mxCell id="vlYqKZK9bWW-TJa4kLlD-78" value="send the game state to the player&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="964.5" y="2680" width="175.5" height="140" as="geometry" />
         </mxCell>
         <mxCell id="vlYqKZK9bWW-TJa4kLlD-103" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=22;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vlYqKZK9bWW-TJa4kLlD-53" target="vlYqKZK9bWW-TJa4kLlD-40" edge="1">
@@ -245,7 +245,7 @@
             <mxPoint x="1029.5" y="1980" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DOezJAUeToiMQup9B8c_-5" value="user request game start and initialize stream" style="ellipse;whiteSpace=wrap;html=1;fontSize=19;" parent="1" vertex="1">
+        <mxCell id="DOezJAUeToiMQup9B8c_-5" value="user request game start and initialize stream" style="ellipse;whiteSpace=wrap;html=1;fontSize=19;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="949" y="1800" width="201" height="130" as="geometry" />
         </mxCell>
         <mxCell id="DOezJAUeToiMQup9B8c_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=19;" parent="1" source="DOezJAUeToiMQup9B8c_-7" target="DOezJAUeToiMQup9B8c_-10" edge="1">
@@ -357,7 +357,7 @@
         <mxCell id="DOezJAUeToiMQup9B8c_-39" value="true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" parent="1" vertex="1">
           <mxGeometry x="924.5" y="2910" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DOezJAUeToiMQup9B8c_-40" value="send the game result to users&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=22;" parent="1" vertex="1">
+        <mxCell id="DOezJAUeToiMQup9B8c_-40" value="send the game result to users&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=22;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="739.5" y="4410" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="DOezJAUeToiMQup9B8c_-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=19;" parent="1" source="DOezJAUeToiMQup9B8c_-43" target="DOezJAUeToiMQup9B8c_-45" edge="1">
@@ -409,7 +409,7 @@
         <mxCell id="DOezJAUeToiMQup9B8c_-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=19;" parent="1" source="DOezJAUeToiMQup9B8c_-57" target="DOezJAUeToiMQup9B8c_-56" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DOezJAUeToiMQup9B8c_-57" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 22px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;send state to user&lt;/span&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" parent="1" vertex="1">
+        <mxCell id="DOezJAUeToiMQup9B8c_-57" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 22px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;send state to user&lt;/span&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="775" y="3650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DOezJAUeToiMQup9B8c_-59" value="true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" parent="1" vertex="1">
@@ -465,7 +465,7 @@
         <mxCell id="DOezJAUeToiMQup9B8c_-80" value="reset the temporary database for another match&amp;nbsp;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" parent="1" vertex="1">
           <mxGeometry x="1125" y="3775" width="210" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="DOezJAUeToiMQup9B8c_-88" value="if error accorded at any stage the error will be send to each user and the game state will be deleted&amp;nbsp; &amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;" parent="1" vertex="1">
+        <mxCell id="DOezJAUeToiMQup9B8c_-88" value="if error accorded at any stage the error will be send to each user and the game state will be deleted&amp;nbsp; &amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1280" y="1800" width="190" height="190" as="geometry" />
         </mxCell>
         <mxCell id="ZGqUt1TWrfdtK2xRZC1U-1" value="user model" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=21;" parent="1" vertex="1">
@@ -513,8 +513,32 @@
         <mxCell id="ZGqUt1TWrfdtK2xRZC1U-18" value="win by &lt;userId&gt; or &lt;-1&gt;  in case of draw" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=20;" parent="ZGqUt1TWrfdtK2xRZC1U-15" vertex="1">
           <mxGeometry y="90" width="390" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="R0fGEenGRs7cjudiNo1a-2" value="&lt;h1 style=&quot;font-size: 21px;&quot;&gt;requests&lt;/h1&gt;&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;ul style=&quot;font-size: 21px;&quot;&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;start game&lt;/li&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;get user&lt;/li&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;get rank&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;get top 10 rank&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;my matches history&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=21;" vertex="1" parent="1">
+        <mxCell id="R0fGEenGRs7cjudiNo1a-2" value="&lt;h1 style=&quot;font-size: 21px;&quot;&gt;requests&lt;/h1&gt;&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;ul style=&quot;font-size: 21px;&quot;&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;start game&lt;/li&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;get user&lt;/li&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;get rank&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;get top 10 rank&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;my matches history&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=21;" parent="1" vertex="1">
           <mxGeometry x="160" y="2560" width="300" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="mzzQG3uNOCbi6DgmSUqi-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mzzQG3uNOCbi6DgmSUqi-1" target="DOezJAUeToiMQup9B8c_-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mzzQG3uNOCbi6DgmSUqi-1" value="&lt;span style=&quot;font-size: 22px&quot;&gt;get played card&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="805" y="2810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mzzQG3uNOCbi6DgmSUqi-4" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="361" y="3930" width="20" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="mzzQG3uNOCbi6DgmSUqi-5" value="&lt;font style=&quot;font-size: 27px&quot;&gt;send game result lambda function&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="4035" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mzzQG3uNOCbi6DgmSUqi-7" value="&lt;font style=&quot;font-size: 27px&quot;&gt;start the match -lambda function&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="2160" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mzzQG3uNOCbi6DgmSUqi-8" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="281" y="2910" width="20" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="mzzQG3uNOCbi6DgmSUqi-9" value="&lt;font style=&quot;font-size: 27px&quot;&gt;read card and send new game state -lambda function&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="3245" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mzzQG3uNOCbi6DgmSUqi-11" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;fontSize=27;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="1880" width="20" height="750" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
